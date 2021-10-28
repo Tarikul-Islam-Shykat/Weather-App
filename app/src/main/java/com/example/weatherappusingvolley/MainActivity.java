@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dismissKeyboard(MainActivity.this); // to dismiss key
-                String apiKey = "9760ba6f5170f47a7a52b9a340e50c53";
+                String apiKey = ""; // paste the api key
                 String cityName = am.amEdtEnterCity.getText().toString();
                 String url = "https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid=";
 
